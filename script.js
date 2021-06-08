@@ -20,7 +20,7 @@ const closeModal = () => {
 }
 
 
-for (let i = 0; i < btnsOpenModal.length; i++) {
+for (let i = 0; i < btnsOpenModal.length; i++) { // Loop through buttons and add an event listener under each button for when the button is clicked it will open the modal.
     btnsOpenModal[i].addEventListener('click', openModal)
 }
 
@@ -28,5 +28,10 @@ for (let i = 0; i < btnsOpenModal.length; i++) {
 //-------------------------------EVENT LISTENERS--------------------------------------------
 btnCloseModal.addEventListener('click', closeModal) // Upon click of X button on modal window it will close the modal.
 overlay.addEventListener('click', closeModal) // Upon clicking anywhere in the blurry area outside the modal window it will close the modal window.
-
+document.addEventListener('keydown', (e) => {
+    console.log(e); // Use console.log to see object; keydown produces an object and it says name of key pressed under one of the keys in the object as a value. In the particular case 'Escape' is what is shown under the key so that's why we access e.key to do comparisons.
+    if (e.key === 'Escape') { // When pressing escape key it closes the modal
+        closeModal();
+    }
+})
 
