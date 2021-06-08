@@ -1,7 +1,7 @@
 ## Application Start-up
 
 Clone or download this repo to your local machine, unzip and open index.html file in a browser.
-Alternatively, click [Here to view the finished website on live GitHub page.]( hhttps://valensh1.github.io/Modals/ )
+Alternatively, click [Here to view the finished website on live GitHub page.]( https://valensh1.github.io/Modals/ )
 <br>
 
 ## Table of contents
