@@ -27,10 +27,10 @@ The challenge was to build out a fully functional modal window by adding and rem
 
 ### Screenshot
 
-### Desktop Finished Version
+Finished Version
 ![screenshot of finished project](Screenshot1.png?raw=true "screenshot of finished project")
 
-### Mobile Finished Version
+
 ![screenshot of finished project](Screenshot2.png?raw=true?raw=true "screenshot of finished project")
 
 ### Links
